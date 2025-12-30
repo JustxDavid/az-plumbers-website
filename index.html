@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A-Z Plumbers - Reliable plumbing services from A to Z. 24/7 emergency service, licensed & insured. Call today for honest work and fair pricing.">
+    <title>A-Z Plumbers | Reliable Plumbing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-az">A-Z</span>
+                <span class="logo-text">PLUMBERS</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+15551234567" class="header-phone">
+                <svg class="phone-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+                (555) 123-4567
+            </a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1 class="hero-title">Reliable Plumbing Services — From A to Z</h1>
+            <p class="hero-subtitle">Fast response. Honest work. Fair prices. Over 20 years of experience serving your community.</p>
+            <div class="hero-buttons">
+                <a href="tel:+15551234567" class="btn btn-primary">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    Call Now
+                </a>
+                <a href="#contact" class="btn btn-secondary">Request Service</a>
+            </div>
+            <div class="hero-emergency">
+                <span class="emergency-badge">24/7</span>
+                <span>Emergency Service Available</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <svg class="badge-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                    </svg>
+                    <span>Licensed & Insured</span>
+                </div>
+                <div class="badge-item">
+                    <svg class="badge-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                    </svg>
+                    <span>Upfront Pricing</span>
+                </div>
+                <div class="badge-item">
+                    <svg class="badge-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span>Satisfaction Guaranteed</span>
+                </div>
+                <div class="badge-item">
+                    <svg class="badge-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                    </svg>
+                    <span>Fast Response Time</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">From small repairs to major installations, we handle it all</p>
+
+            <div class="services-grid">
+                <!-- Emergency Plumbing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Emergency Plumbing</h3>
+                    <p class="service-desc">When disaster strikes, we're there. Day or night, weekends or holidays.</p>
+                    <ul class="service-features">
+                        <li>24/7 availability</li>
+                        <li>Fast response times</li>
+                        <li>Burst pipes & major leaks</li>
+                    </ul>
+                </div>
+
+                <!-- Leak Detection -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8zm0 18c-3.35 0-6-2.57-6-6.2 0-2.34 1.95-5.44 6-9.14 4.05 3.7 6 6.79 6 9.14 0 3.63-2.65 6.2-6 6.2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Leak Detection & Repair</h3>
+                    <p class="service-desc">Hidden leaks waste water and cause damage. We find them and fix them fast.</p>
+                    <ul class="service-features">
+                        <li>Advanced detection equipment</li>
+                        <li>Minimally invasive repairs</li>
+                        <li>Prevent water damage</li>
+                    </ul>
+                </div>
+
+                <!-- Drain Cleaning -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 14v3c0 .55-.45 1-1 1h-1v-4h2m-8 4h2v-4h-2v4m-4 0h2v-4H7v4m12-6V6c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v6h14zM5 20v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h1v-6H4v6h1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Drain Cleaning & Clog Removal</h3>
+                    <p class="service-desc">Slow drains? Complete blockage? We'll get things flowing again.</p>
+                    <ul class="service-features">
+                        <li>Kitchen & bathroom drains</li>
+                        <li>Main line clearing</li>
+                        <li>Camera inspection available</li>
+                    </ul>
+                </div>
+
+                <!-- Water Heater -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 6c-3.87 0-7 3.13-7 7 0 3.53 2.61 6.43 6 6.92V22h2v-2.08c3.39-.49 6-3.39 6-6.92 0-3.87-3.13-7-7-7zm0 12c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zM8 2h8v2H8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Water Heater Services</h3>
+                    <p class="service-desc">No hot water? We repair and install all types of water heaters.</p>
+                    <ul class="service-features">
+                        <li>Tank & tankless units</li>
+                        <li>Repair & replacement</li>
+                        <li>Energy-efficient options</li>
+                    </ul>
+                </div>
+
+                <!-- Pipe Repair -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 14h-1c0-3.87-3.13-7-7-7h-1V5.73c1.16-.41 2-1.52 2-2.83 0-1.66-1.34-3-3-3S9 1.24 9 2.9c0 1.31.84 2.42 2 2.83V7h-1c-3.87 0-7 3.13-7 7H2c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h1v1c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-1h1c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Pipe Repair & Replacement</h3>
+                    <p class="service-desc">From small fixes to complete repiping, we keep your water flowing clean.</p>
+                    <ul class="service-features">
+                        <li>Copper, PEX & PVC</li>
+                        <li>Frozen pipe repair</li>
+                        <li>Whole-house repiping</li>
+                    </ul>
+                </div>
+
+                <!-- Toilet Repair -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                            <circle cx="12" cy="12" r="5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Toilet Repair & Installation</h3>
+                    <p class="service-desc">Running toilets, leaks, or time for an upgrade? We've got you covered.</p>
+                    <ul class="service-features">
+                        <li>All makes & models</li>
+                        <li>Low-flow options</li>
+                        <li>Same-day service</li>
+                    </ul>
+                </div>
+
+                <!-- Faucet & Fixture -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Faucet & Fixture Repair</h3>
+                    <p class="service-desc">Dripping faucets, broken handles, or new installations done right.</p>
+                    <ul class="service-features">
+                        <li>Kitchen & bathroom</li>
+                        <li>Showers & tubs</li>
+                        <li>Outdoor fixtures</li>
+                    </ul>
+                </div>
+
+                <!-- Garbage Disposal -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Garbage Disposal Services</h3>
+                    <p class="service-desc">Jammed, leaking, or need a new disposal? Quick repairs and installs.</p>
+                    <ul class="service-features">
+                        <li>Repair & unclogging</li>
+                        <li>New installations</li>
+                        <li>All major brands</li>
+                    </ul>
+                </div>
+
+                <!-- Sewer Line -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Sewer Line Services</h3>
+                    <p class="service-desc">Sewer problems are serious. We inspect, repair, and replace sewer lines.</p>
+                    <ul class="service-features">
+                        <li>Video camera inspection</li>
+                        <li>Root removal</li>
+                        <li>Line replacement</li>
+                    </ul>
+                </div>
+
+                <!-- Commercial -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Commercial Plumbing</h3>
+                    <p class="service-desc">Light commercial plumbing for businesses, offices, and retail spaces.</p>
+                    <ul class="service-features">
+                        <li>Restaurants & retail</li>
+                        <li>Office buildings</li>
+                        <li>Property management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About A-Z Plumbers</h2>
+                    <p class="about-lead">We're local plumbers who believe in doing the job right the first time.</p>
+                    <p>For over 20 years, A-Z Plumbers has been serving homeowners and businesses in our community. We're not a big corporation—we're your neighbors. When you call us, you get experienced plumbers who take pride in their work.</p>
+
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h4>Honest Work</h4>
+                            <p>We tell you what's wrong, explain your options, and let you decide. No upselling, no pressure.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Fair Pricing</h4>
+                            <p>You'll know the price before we start. No surprises, no hidden fees.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Skilled Tradesmen</h4>
+                            <p>Our plumbers are licensed, trained, and experienced. We stand behind every job.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                        </svg>
+                        <span>A-Z Plumbers Team</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Called them at 10pm with a burst pipe. They were here in 30 minutes and had it fixed within the hour. Can't thank them enough!"</p>
+                    <div class="testimonial-author">
+                        <strong>Mike R.</strong>
+                        <span>Homeowner</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally, a plumber who shows up on time and charges what they quote. I've used A-Z for three different jobs now. Highly recommend."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah T.</strong>
+                        <span>Homeowner</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"They replaced our water heater and explained everything clearly. Fair price, clean work, and they even cleaned up after themselves."</p>
+                    <div class="testimonial-author">
+                        <strong>Jim & Linda K.</strong>
+                        <span>Homeowners</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-content">
+                <svg class="guarantee-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                </svg>
+                <div class="guarantee-text">
+                    <h2>Our Satisfaction Guarantee</h2>
+                    <p>We're not happy until you're happy. If something isn't right, we'll come back and make it right—at no extra charge. That's the A-Z promise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="contact-lead">Ready to get your plumbing problem solved? Give us a call or fill out the form.</p>
+
+                    <div class="contact-method">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <div>
+                            <strong>Call Us</strong>
+                            <a href="tel:+15551234567" class="contact-phone">(555) 123-4567</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <div>
+                            <strong>Service Area</strong>
+                            <p>Serving the greater metro area and surrounding communities within 30 miles</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                        </svg>
+                        <div>
+                            <strong>Hours</strong>
+                            <p>Mon-Fri: 7am - 6pm<br>Sat: 8am - 4pm<br><strong>Emergency: 24/7</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Request Service</h3>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service...</option>
+                                <option value="emergency">Emergency Plumbing</option>
+                                <option value="leak">Leak Detection & Repair</option>
+                                <option value="drain">Drain Cleaning</option>
+                                <option value="water-heater">Water Heater</option>
+                                <option value="pipe">Pipe Repair/Replacement</option>
+                                <option value="toilet">Toilet Repair/Installation</option>
+                                <option value="faucet">Faucet & Fixtures</option>
+                                <option value="garbage-disposal">Garbage Disposal</option>
+                                <option value="sewer">Sewer Line</option>
+                                <option value="commercial">Commercial Plumbing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Describe Your Issue</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your plumbing problem..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+                        <p class="form-note">* Required fields. We'll get back to you within 1 business hour.</p>
+                    </form>
+                    <div class="emergency-note">
+                        <strong>Plumbing Emergency?</strong>
+                        <p>Don't wait—call us now at <a href="tel:+15551234567">(555) 123-4567</a> for immediate assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-az">A-Z</span>
+                        <span class="logo-text">PLUMBERS</span>
+                    </a>
+                    <p>Reliable plumbing services from A to Z. Licensed, insured, and committed to quality work.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Emergency Plumbing</a></li>
+                        <li><a href="#services">Drain Cleaning</a></li>
+                        <li><a href="#services">Water Heaters</a></li>
+                        <li><a href="#services">Pipe Repair</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                    <p>24/7 Emergency Service</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A-Z Plumbers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
